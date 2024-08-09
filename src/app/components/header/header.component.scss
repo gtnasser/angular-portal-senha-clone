@@ -1,0 +1,21 @@
+@import "../../../styles/variables.scss";
+
+section {
+    display: flex;
+    justify-content: end;
+    min-height: 60px;
+
+    padding: 5px 15px;
+    background-color: white;
+    border: solid 5px $primary-color;
+    border-radius: 15px;
+
+    .logo {
+        background-image: url(../../../assets/logo.png);
+        background-repeat: no-repeat;
+        background-size:auto;
+        background-position: 100% 0;
+        width: 200px;
+        height: 40px;
+    }
+}
