@@ -32,6 +32,6 @@ npm install
 ng serve
 ```
 
-and finally, open (https://localhost:4200/login) in your favorite browser
+and finally, open (http://localhost:4200) in your favorite browser
 
 

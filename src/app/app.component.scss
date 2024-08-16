@@ -4,5 +4,8 @@ main{
     background-color: $primary-background-color;
     padding: 10px;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 

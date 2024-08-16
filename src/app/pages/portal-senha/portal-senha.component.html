@@ -1,0 +1,36 @@
+<section class="main-border">
+
+    <div class="title">
+        <h1>Portal de Senha - Inicio</h1>
+    </div>
+
+    <div class="form-wrapper">
+        <form id="login" name="login" action="/PortalSenha/login.action" method="post" class="formulario">
+
+            <div class="input-wrapper">
+                <label for="txtMatricula">Matricula:</label>
+                <input type="text" name="txtMatricula" value="" id="txtMatricula">
+                <!-- onkeypress="return isNumber(event)" oninvalid="this.setCustomValidity('Favor preencher este campo com apenas NÚMEROS.') " required="required" oninput="setCustomValidity('')">-->
+            </div>
+
+            <div class="input-wrapper">
+                <label for="txtCaptcha" class="label">Digite o código CAPTCHA:</label>
+                <input type="text" name="txtCaptcha" value="" id="txtCaptcha">
+                <!-- oninvalid="this.setCustomValidity('Favor preencher este campo.')" required="required" oninput="setCustomValidity('')"-->
+            </div>
+
+            <div class="captcha-wrapper">
+                <span id="textCaptcha">aphwg</span>
+                <!--img id="imgCaptcha" src="/PortalSenha/captcha" alt="Captcha Image" height="45"-->
+            </div>
+
+            <div class="submit-wrapper">
+                <input type="hidden" name="ipExterno" value="189.14.81.255" id="ipExterno">
+                <input type="submit" value="Avançar" id="btnLogin" onclick="formValidate()">
+                <!-- (click)="submit()" [disabled]="disablePrimaryBtn" -->
+        </div>
+
+        </form>
+    </div>
+
+</section>
