@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { SpinnerService } from './spinner.service';
 import { NgIf } from '@angular/common';
+import { SpinnerService } from './spinner.service';
 
 @Component({
   selector: 'app-spinner',
@@ -12,7 +12,6 @@ import { NgIf } from '@angular/common';
 })
 export class SpinnerComponent {
 
-  constructor(public spinner: SpinnerService) {
-  }
+  constructor(public spinner: SpinnerService) { }
 
 }
